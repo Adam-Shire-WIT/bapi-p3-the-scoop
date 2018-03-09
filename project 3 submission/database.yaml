@@ -1,0 +1,46 @@
+users:
+  adam:
+    username: adam
+    articleIds:
+      - 1
+    commentIds: []
+  bill:
+    username: bill
+    articleIds:
+      - 2
+    commentIds: []
+  corn:
+    username: corn
+    articleIds: []
+    commentIds:
+      - 1
+articles:
+  '1':
+    id: 1
+    title: barley
+    url: hops
+    username: adam
+    commentIds: []
+    upvotedBy: []
+    downvotedBy: []
+  '2':
+    id: 2
+    title: big
+    url: 'http://library.wit.edu'
+    username: bill
+    commentIds:
+      - 1
+    upvotedBy: []
+    downvotedBy: []
+    comments: []
+nextArticleId: 3
+comments:
+  '1':
+    id: 1
+    body: smile
+    username: corn
+    articleId: 2
+    upvotedBy: []
+    downvotedBy:
+      - corn
+nextCommentId: 2
